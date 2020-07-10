@@ -25,3 +25,4 @@ def _import_all_modules(folder):
                     __all__.append(name)
 
 _import_all_modules('ingest')
+_import_all_modules('assembly')
